@@ -200,6 +200,7 @@ class AlienInvasion:
 				self.stats.score += self.settings.alien_points * len(alist)
 			self.sb.prep_score()
 			self.sb.check_high_score()
+			se.alien_sound.play()
 
 		#if aliens are gone, create a new fleet \
 		#[BUILD NOTES: have a setting for a finite number of fleets, \
