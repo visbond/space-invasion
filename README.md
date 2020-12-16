@@ -3,9 +3,9 @@ Space Invaders tribute in Python.
 
 Built while slowly following Eric Matthes' excellent Python book. 
 
-To run this, you would need the pygame package (www.pygame.org). Usually ```pip install pygame``` should be enough.
+To run this, you would need the pygame package (www.pygame.org). Instructions differ for different platforms, so please refer to the site rather than just relying on ```pip install pygame```.
 
-Just make sure all the .py files are present and the directory structure is the same (mainly that the sprite images are in the /images folder. Else modify the code files to reflect your path). 
+Make sure all the .py files are present and the directory structure is the same (mainly that the sprite images are in the /images folder, sounds in /sounds. Else modify the code files to reflect your path). 
 
 Then just run 
 ```
