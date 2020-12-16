@@ -62,7 +62,7 @@ class AlienInvasion:
 		self._create_fleet()
 
 		#make the play button
-		self.play_button = Button(self,"Play") #makes button but its draw call is made in _update_screen()
+		self.play_button = Button(self,"Click Here or Press P to Play") #makes button but its draw call is made in _update_screen()
 		pass
 	#end def
 
