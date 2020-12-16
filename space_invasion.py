@@ -32,6 +32,7 @@ from button import Button
 from ship import Ship
 from bullet import Bullet
 from alien import Alien
+import sound_effects as se
 
 class AlienInvasion:
 	'''overall class to manage game assets and behaviour'''
@@ -349,6 +350,7 @@ class AlienInvasion:
 		if len(self.bullets) < self.settings.bullets_allowed:
 			new_bullet = Bullet(self)
 			self.bullets.add(new_bullet)
+			se.bullet_sound.play()
 		pass
 	#end def
 
