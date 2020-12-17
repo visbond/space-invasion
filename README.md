@@ -21,7 +21,7 @@ Press Q or Esc to quit.
 
 The project is highly modular. Every element is in its own class in a separate py file. Various settings can be modified by editing the respective file. The names are self-explanatory. For example ship speed can be modified by editing ship.py, bullet width and speed in bullet.py etc. 
 
-This is a basic version. Much more can be done, especially enhancing the visual elements (animated sprites, animated backgrounds). Incorporate sound. A project for a rainy day...
+This is a basic version. Much more can be done, especially enhancing the visual elements (animated sprites, animated backgrounds). Background music. A project for a rainy day...
 
 
 
